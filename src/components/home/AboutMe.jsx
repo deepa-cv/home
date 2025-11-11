@@ -31,7 +31,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     }
   }, [link]);
   const about = 'I graduated from PES University with a Bachelors in Computer Science and am currently pursuing Masters in Data Science at UW-Madison, where I am part of ACM-W on campus and a part-time Data Analyst at the IT Department.';
-  const about1 = 'Over the summer, I interned at Amazon where I got to work with large scale data pipleines and monitoring dashboard. Previously I worked and interned at Hewlett Packard Enterprise and Adobe on varioud problems including Cloud Development, User Interfaces and Data Science.';
+  const about1 = 'Over the summer, I interned at Amazon where I got to work with large scale data pipleines and monitoring dashboards. Previously I worked and interned at Hewlett Packard Enterprise and Adobe on various problems including Cloud Development, User Interfaces and Data Science.';
 
   return (
     <Jumbotron id="aboutme" className="m-0">
