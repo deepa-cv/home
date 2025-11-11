@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/home/static/css/main.97bdcdab.css",
-    "main.js": "/home/static/js/main.a2c81941.js",
+    "main.js": "/home/static/js/main.e27b4d8a.js",
     "static/js/453.9b1a9f3d.chunk.js": "/home/static/js/453.9b1a9f3d.chunk.js",
     "static/media/deepa-cv.jpg": "/home/static/media/deepa-cv.b8f182b1aaf6f6ef2158.jpg",
-    "static/media/DeepaShreeCV_Resume.pdf": "/home/static/media/DeepaShreeCV_Resume.70e867ab586e737f53df.pdf",
+    "static/media/Deepa_Venkatachalapathi_Resume.pdf": "/home/static/media/Deepa_Venkatachalapathi_Resume.06a3ac204f43899f577a.pdf",
     "index.html": "/home/index.html",
     "main.97bdcdab.css.map": "/home/static/css/main.97bdcdab.css.map",
-    "main.a2c81941.js.map": "/home/static/js/main.a2c81941.js.map",
+    "main.e27b4d8a.js.map": "/home/static/js/main.e27b4d8a.js.map",
     "453.9b1a9f3d.chunk.js.map": "/home/static/js/453.9b1a9f3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97bdcdab.css",
-    "static/js/main.a2c81941.js"
+    "static/js/main.e27b4d8a.js"
   ]
 }
