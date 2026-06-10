@@ -67,7 +67,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               </a>
             </p>
           )} */}
-        </div>``
+        </div>
       </div>
     </Jumbotron>
   );

@@ -8,7 +8,8 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  publications
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -22,6 +23,7 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
+import Publications from "./components/home/Publications";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -70,6 +72,9 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
+      {publications.show && (
+        <Publications publications={publications} />
+      )}
       
     </>
   );
@@ -77,9 +82,12 @@ const Home = React.forwardRef((props, ref) => {
 
 const App = () => {
   const titleRef = React.useRef();
+  // In development, PUBLIC_URL is empty, so we use empty string
+  // In production, it will be "/home" based on package.json homepage
+  const basename = process.env.PUBLIC_URL ? process.env.PUBLIC_URL + "/" : "";
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <BrowserRouter basename={basename}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />

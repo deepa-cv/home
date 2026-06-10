@@ -121,6 +121,7 @@ const getInTouch = {
   email: "deepachalapathi17@gmail.com",
 };
 
+
 const experiences = {
   show: false,
   heading: "Experiences",
@@ -138,9 +139,33 @@ const experiences = {
   ]
 }
 
+// PUBLICATIONS SECTION
+// Add your publications with title, one-line description, and link
+const publications = {
+  show: true,
+  heading: "Publications",
+  data: [
+    {
+      title: "Offset-Value Coding in Database Query Execution",
+      description: "A database query execution technique for improving data representation and processing efficiency.",
+      link: "https://dl.acm.org/doi/10.1145/3778176",
+    },
+    {
+      title: "Data-Efficient Training for Effective Paraphrase Retrieval Techniques Using Language Models to Identify Research Gaps",
+      description: "A few shot learning approach for retrieving paraphrases efficiently to support research gap identification.",
+      link: "https://link.springer.com/chapter/10.1007/978-981-97-6588-1_8",
+    },
+    {
+      title: "Predicting Code Runtime Complexity Using Machine Learning Techniques",
+      description: "A machine learning method for estimating code runtime complexity from program characteristics.",
+      link: "https://books.google.com/books?hl=en&lr=&id=tqPpEAAAQBAJ&oi=fnd&pg=PA377&ots=WP8SVaI4u_&sig=36kuFZ0EI3pxjQBi3EBaAM6zFS4", // Link to paper (arXiv, publisher, etc.)
+    },
+  ]
+}
+
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch,experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, publications };

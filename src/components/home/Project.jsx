@@ -58,7 +58,7 @@ const Project = ({ heading, username, length, specfic }) => {
   },
   {
     name: "MoodBoost",
-    description:"As a part of Hackalytics,a GIT hackathon, we built a streamlit application to help individuals improve their mental health during the Covid-19 crisis." ,
+    description:"As a part of Hackalytics,an MLH hosted hackathon, we built a streamlit application to help individuals improve their mental health during the Covid-19 crisis." ,
     svn_url: "https://github.com/ELITA04/Hacklytics-Streamlit",
     stargazers_count: null,
     languages_url:["Python", "Tensorflow","Plotly", "Streamlit"],
